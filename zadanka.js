@@ -97,10 +97,4 @@ console.log(merged);
 //task6
 console.log('----task6-----');
 
-function waitForSeconds() {
-    return new Promise(resolve => {
-        setTimeout(() => {}, 2000);
-    });
-}
-const result = await waitForSeconds(2);
 
